@@ -1,6 +1,9 @@
 /* Font Sizes */
-.fs-xxl {
-    font-size: var(--fs-xxl);
+.fs-3xl {
+    font-size: var(--fs-3xl);
+}
+.fs-2xl {
+    font-size: var(--fs-2xl);
 }
 .fs-xl {
     font-size: var(--fs-xl);
@@ -42,6 +45,9 @@
 .text-white {
     color: var(--color-white);
 }
+.text-white-80 {
+    color: var(--color-white-80);
+}
 .text-blue {
     color: var(--color-blue);
 }
@@ -50,6 +56,10 @@
 }
 
 /* Layout */
+.inline-block {
+    display: inline-block;
+}
+
 .container {
     width: 100%;
     max-width: 1090px;
@@ -57,8 +67,24 @@
     margin-right: auto;
 }
 
+.my-1_5 {
+    margin-block: 1.5rem;
+}
+
 .my-3 {
     margin-block: 3rem;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+.mb-5 {
+    margin-bottom: 5rem;
+}
+
+.ml-2 {
+    margin-left: 2rem;
 }
 
 .gap-12 {

@@ -136,12 +136,14 @@ table {
     --color-black: #000;
     --color-white: #fff;
     --color-white-80: #ffffffcc;
+    --color-white-50: #ffffff88;
     --color-white-36: #ffffff5c;
     --color-white-25: #FFFFFF40;
     --color-white-20: #ffffff33;
     --color-light: #fafafa;
     --color-gray: #7d7d7d;
-    --color-dark-700: #292929;
+    --color-dark-600: #292929;
+    --color-dark-700: #151515;
     --color-dark-800: #1c1c1c;
     --color-dark-900: #101111;
     --color-dark-950: #1e1e1e00;
@@ -150,8 +152,8 @@ table {
     --color-skin: #ffd49c;
 
     /* Font Sizes */
-    --fs-xxxl: 2.5rem; /*40px*/
-    --fs-xxl: 2.25rem; /*36px*/
+    --fs-3xl: 2.5rem; /*40px*/
+    --fs-2xl: 2.25rem; /*36px*/
 	--fs-xl: 2rem; /*32px*/
     --fs-lg: 1.5rem; /*24px*/
     --fs-md: 1.375rem; /*22px*/
@@ -162,6 +164,7 @@ table {
     --fs-4xs: 00.75rem; /*12px*/
 
     /* Font Weights */
+    --fw-bold: 700;
     --fw-semibold: 500;
     --fw-normal: 400;
 }

@@ -1,1 +1,0 @@
-const marqueeBox = document.querySelector('.__Marquee');

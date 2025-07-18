@@ -17,6 +17,10 @@
     );
     border-radius: inherit;
 }
+.primary-btn .content.bg-black {
+    background-image: none;
+    background-color: var(--color-black);
+}
 
 /* Pointer */
 .pointer {
@@ -47,7 +51,7 @@
     border-radius: inherit;
 }
 
-/* Hero section */
+/* # Hero section */
 .__HERO_Section {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -85,7 +89,7 @@
     transform: translateY(50%) translateX(-35%);
 }
 
-/* Marquee */
+/* # Marquee */
 .__Marquee_Section {
     border-block: 1px solid var(--color-white-25);
     overflow: hidden;
@@ -101,10 +105,78 @@
 }
 
 @keyframes scroll-left {
-    0%,100% {
+    0%,
+    100% {
         transform: translateX(50%);
     }
     50% {
         transform: translateX(-50%);
     }
+}
+
+/* # Process To Design section */
+.__Process_Section {
+    padding-block: 5rem;
+}
+
+.__timeline-item {
+    padding: 3rem 1.5rem;
+    padding-bottom: 0;
+    display: flex;
+    gap: 5rem;
+}
+
+.__timeline-left {
+    position: relative;
+}
+
+.__timeline-number {
+    border: 2px solid var(--color-white);
+    border-radius: 100%;
+    font-size: var(--fs-2xs);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.__timeline_line {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 1px;
+    height: calc(100% - 70px);
+    background-color: var(--color-white-20);
+}
+
+/* #Featured Project Section */
+.__project-item {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background-color: var(--color-dark-700);
+    padding: 3rem 5rem;
+    margin-bottom: 3rem;
+}
+
+.__project-img-box {
+    width: 545px;
+    height: 545px;
+    background-image: linear-gradient(
+        to right,
+        var(--color-blue),
+        var(--color-skin)
+    );
+}
+.__project-img-box.reverse {
+    background-image: linear-gradient(
+        to left,
+        var(--color-blue),
+        var(--color-skin)
+    );
+}
+
+.__project-name {
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-bold);
 }
