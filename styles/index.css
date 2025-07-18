@@ -1,0 +1,110 @@
+/* Button gradient with border gradient */
+.primary-btn {
+    border: 0;
+    border-radius: 9999px;
+    background-image: linear-gradient(
+        to left,
+        var(--color-blue),
+        var(--color-skin)
+    );
+}
+
+.primary-btn .content {
+    background-image: linear-gradient(
+        to right,
+        var(--color-blue),
+        var(--color-skin)
+    );
+    border-radius: inherit;
+}
+
+/* Pointer */
+.pointer {
+    cursor: pointer;
+}
+
+/* Navbar */
+.__navbar_box {
+    width: 418px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px;
+    border-radius: 9999px;
+    background-color: var(--color-dark-800);
+    padding: 5px;
+}
+
+.__navbar_box .__navbar_box_items {
+    padding: 10px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.__navbar_box .__navbar_box_items.active {
+    background-color: var(--color-dark-700);
+    border-radius: inherit;
+}
+
+/* Hero section */
+.__HERO_Section {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    min-height: 567px;
+}
+
+.__HERO_Section .__hero_blocks {
+    position: relative;
+    border: 1px solid var(--color-white-25);
+}
+
+.__HERO_Section .__hero_banner {
+    border: 1px solid var(--color-white-25);
+    grid-column: 2 / span 4; /* starts at col 2, spans 4 cols */
+    grid-row: 2 / span 3;
+    position: relative;
+}
+
+.star1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 31px;
+    height: 31px;
+    transform: translateY(-51%) translateX(51%);
+}
+
+.star2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 31px;
+    height: 31px;
+    transform: translateY(50%) translateX(-35%);
+}
+
+/* Marquee */
+.__Marquee_Section {
+    border-block: 1px solid var(--color-white-25);
+    overflow: hidden;
+}
+.__Marquee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--fs-sm);
+    width: 1090px;
+    height: 70px;
+    animation: scroll-left 30s linear infinite;
+}
+
+@keyframes scroll-left {
+    0%,100% {
+        transform: translateX(50%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+}

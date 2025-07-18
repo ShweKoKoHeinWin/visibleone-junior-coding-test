@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="This i a Web developer portfolio. It includes develper's steps to design, featured projects, client's feedback and contact sections."
+        />
+        <meta
+            name="keywords"
+            content="web developer, portfolio, html, css, javascript"
+        />
+        <meta name="author" content="Shwe Ko Ko Hein Win" />
+
+        <!-- Open Graph meta tags for social sharing -->
+        <meta
+            property="og:title"
+            content="znisa portfolio - VisibleOne Coding Test"
+        />
+        <meta
+            property="og:description"
+            content="Showcasing modern web development projects and skills"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://johndoe.dev" />
+        <title>znisa portfolio - VisibleOne Coding Test</title>
+
+        <!-- FOnts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Styles -->
+        <link rel="preload" href="./styles/reset.css" as="style" />
+        <link rel="preload" href="./styles/utils.css" as="style" />
+        <link rel="preload" href="./styles/index.css" as="style" />
+        <link rel="preload" href="./styles/responsive_768.css" as="style" />
+
+        <link rel="stylesheet" href="./styles/reset.css" />
+        <link rel="stylesheet" href="./styles/utils.css" />
+        <link rel="stylesheet" href="./styles/index.css" />
+        <link rel="stylesheet" href="./styles/responsive_768.css" />
+    </head>
+    <body>
+        <header class="container my-3">
+            <nav role="navigation" aria-label="Main Navigation">
+                <div class="flex justify-between items-center">
+                    <a href="#home" class="flex items-center gap-12">
+                        <img
+                            src="./images/logo.png"
+                            alt=""
+                            width="44"
+                            height="44"
+                        />
+                        <span class="font-lg">znisa</span>
+                    </a>
+
+                    <div class="primary-btn p-1_5">
+                        <div class="content">
+                            <!-- Large screen -->
+                            <ul class="__navbar_box">
+                                <li class="__navbar_box_items active">
+                                    <svg
+                                        width="20"
+                                        height="20"
+                                        viewBox="0 0 20 20"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <g clip-path="url(#clip0_1_58)">
+                                            <path
+                                                d="M1.66692 10.17C1.66692 8.26299 1.66692 7.30948 2.09958 6.51903C2.53225 5.72859 3.3227 5.23801 4.90361 4.25685L6.57028 3.22247C8.24141 2.18532 9.07697 1.66675 10.0002 1.66675C10.9235 1.66675 11.7591 2.18532 13.4302 3.22247L15.0969 4.25685C16.6778 5.23801 17.4682 5.72859 17.9009 6.51903C18.3336 7.30948 18.3336 8.26299 18.3336 10.17V11.4375C18.3336 14.6883 18.3336 16.3137 17.3573 17.3235C16.381 18.3334 14.8096 18.3334 11.6669 18.3334H8.33358C5.19089 18.3334 3.61954 18.3334 2.64323 17.3235C1.66692 16.3137 1.66692 14.6883 1.66692 11.4375V10.17Z"
+                                                stroke="white"
+                                                stroke-width="1.5"
+                                            />
+                                            <path
+                                                d="M10.0002 12.5L10.0002 15"
+                                                stroke="white"
+                                                stroke-width="1.5"
+                                                stroke-linecap="round"
+                                            />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_58">
+                                                <rect
+                                                    width="20"
+                                                    height="20"
+                                                    fill="white"
+                                                    transform="translate(0.000244141)"
+                                                />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </li>
+                                <li class="__navbar_box_items">About</li>
+                                <li class="__navbar_box_items">Projects</li>
+                                <li class="__navbar_box_items">Contact me</li>
+                            </ul>
+
+                            <!-- small screen -->
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center items-center">
+                        <button class="primary-btn p-1 pointer">
+                            <div class="content p-18 fs-2xs fw-semibold">
+                                Hire me
+                            </div>
+                        </button>
+                        <button class="primary-btn p-1 pointer">
+                            <div class="content p-15">
+                                <svg
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 20 20"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <circle
+                                        cx="10.0002"
+                                        cy="5.00008"
+                                        r="3.33333"
+                                        stroke="black"
+                                        stroke-width="1.5"
+                                    />
+                                    <ellipse
+                                        cx="10.0002"
+                                        cy="14.1666"
+                                        rx="5.83333"
+                                        ry="3.33333"
+                                        stroke="black"
+                                        stroke-width="1.5"
+                                    />
+                                    <defs>
+                                        <linearGradient
+                                            id="paint0_linear_1_71"
+                                            x1="19.9206"
+                                            y1="8.69911"
+                                            x2="0.0722784"
+                                            y2="8.84948"
+                                            gradientUnits="userSpaceOnUse"
+                                        >
+                                            <stop stop-color="#7A87FB" />
+                                            <stop
+                                                offset="1"
+                                                stop-color="#FFD49C"
+                                            />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="">
+            <section class="__HERO_Section container">
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+
+                <div
+                    class="__hero_banner flex flex-col justify-center items-center gap-12"
+                >
+                    <h2 class="fs-xl">I design and build clean websites</h2>
+                    <p>
+                        Write anything here something about yourself to <br />
+                        showcase what actually you doing or targeting etc.
+                    </p>
+                    <div class="primary-btn p-1_5 pointer">
+                        <div
+                            class="content p-10_25 text-black fw-semibold fs-2xs"
+                        >
+                            Hire me
+                        </div>
+                    </div>
+
+                    <img
+                        src="./images/curved_diamond.png"
+                        class="star1"
+                        alt=""
+                    />
+                </div>
+
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks">
+                    <img
+                        src="./images/curved_diamond.png"
+                        class="star2"
+                        alt=""
+                    />
+                </div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+                <div class="__hero_blocks"></div>
+            </section>
+
+            <section class="__Marquee_Section">
+                <div class="container">
+                    <div class="__Marquee">
+                        <div class="__marquee_item">Framer</div>
+                        <div class="__marquee_item">
+                            <!-- l to r -->
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_1_74)">
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M12.8572 0H11.1429V9.93067L4.12081 2.90862L2.90863 4.12081L9.93067 11.1429H0V12.8572H9.93066L2.90863 19.8792L4.12081 21.0913L11.1429 14.0693V24H12.8572V14.0693L19.8792 21.0913L21.0913 19.8792L14.0693 12.8572H24V11.1429H14.0693L21.0913 4.1208L19.8792 2.90862L12.8572 9.93066V0Z"
+                                        fill="url(#paint0_linear_1_74)"
+                                    />
+                                </g>
+                                <defs>
+                                    <linearGradient
+                                        id="paint0_linear_1_74"
+                                        x1="0"
+                                        y1="12"
+                                        x2="24"
+                                        y2="12"
+                                        gradientUnits="userSpaceOnUse"
+                                    >
+                                        <stop stop-color="#7A87FB" />
+                                        <stop offset="1" stop-color="#FFD49C" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_1_74">
+                                        <rect
+                                            width="24"
+                                            height="24"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="__marquee_item">Webflow</div>
+                        <div class="__marquee_item">
+                            <!-- r to l -->
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_1_77)">
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M12.8572 0H11.1429V9.93067L4.12081 2.90862L2.90863 4.12081L9.93067 11.1429H0V12.8572H9.93066L2.90863 19.8792L4.12081 21.0913L11.1429 14.0693V24H12.8572V14.0693L19.8792 21.0913L21.0913 19.8792L14.0693 12.8572H24V11.1429H14.0693L21.0913 4.1208L19.8792 2.90862L12.8572 9.93066V0Z"
+                                        fill="url(#paint0_linear_1_77)"
+                                    />
+                                </g>
+                                <defs>
+                                    <linearGradient
+                                        id="paint0_linear_1_77"
+                                        x1="23.9044"
+                                        y1="10.4389"
+                                        x2="0.0864411"
+                                        y2="10.6194"
+                                        gradientUnits="userSpaceOnUse"
+                                    >
+                                        <stop stop-color="#7A87FB" />
+                                        <stop offset="1" stop-color="#FFD49C" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_1_77">
+                                        <rect
+                                            width="24"
+                                            height="24"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="__marquee_item">Figma</div>
+                        <div class="__marquee_item">
+                            <!-- l to r -->
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_1_74)">
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M12.8572 0H11.1429V9.93067L4.12081 2.90862L2.90863 4.12081L9.93067 11.1429H0V12.8572H9.93066L2.90863 19.8792L4.12081 21.0913L11.1429 14.0693V24H12.8572V14.0693L19.8792 21.0913L21.0913 19.8792L14.0693 12.8572H24V11.1429H14.0693L21.0913 4.1208L19.8792 2.90862L12.8572 9.93066V0Z"
+                                        fill="url(#paint0_linear_1_74)"
+                                    />
+                                </g>
+                                <defs>
+                                    <linearGradient
+                                        id="paint0_linear_1_74"
+                                        x1="0"
+                                        y1="12"
+                                        x2="24"
+                                        y2="12"
+                                        gradientUnits="userSpaceOnUse"
+                                    >
+                                        <stop stop-color="#7A87FB" />
+                                        <stop offset="1" stop-color="#FFD49C" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_1_74">
+                                        <rect
+                                            width="24"
+                                            height="24"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="__marquee_item">Notion</div>
+                        <div class="__marquee_item">
+                            <!-- r to l -->
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_1_77)">
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M12.8572 0H11.1429V9.93067L4.12081 2.90862L2.90863 4.12081L9.93067 11.1429H0V12.8572H9.93066L2.90863 19.8792L4.12081 21.0913L11.1429 14.0693V24H12.8572V14.0693L19.8792 21.0913L21.0913 19.8792L14.0693 12.8572H24V11.1429H14.0693L21.0913 4.1208L19.8792 2.90862L12.8572 9.93066V0Z"
+                                        fill="url(#paint0_linear_1_77)"
+                                    />
+                                </g>
+                                <defs>
+                                    <linearGradient
+                                        id="paint0_linear_1_77"
+                                        x1="23.9044"
+                                        y1="10.4389"
+                                        x2="0.0864411"
+                                        y2="10.6194"
+                                        gradientUnits="userSpaceOnUse"
+                                    >
+                                        <stop stop-color="#7A87FB" />
+                                        <stop offset="1" stop-color="#FFD49C" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_1_77">
+                                        <rect
+                                            width="24"
+                                            height="24"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="__Process_Section container"></div>
+        </main>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
