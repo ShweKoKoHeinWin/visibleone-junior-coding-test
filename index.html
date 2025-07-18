@@ -49,13 +49,8 @@
         <header class="container my-3">
             <nav role="navigation" aria-label="Main Navigation">
                 <div class="flex justify-between items-center">
-                    <a href="#home" class="flex items-center gap-12">
-                        <img
-                            src="./images/logo.png"
-                            alt=""
-                            width="44"
-                            height="44"
-                        />
+                    <a href="#home" class="flex items-center gap-1">
+                        <img src="./images/logo.png" alt="LOGO image" class="__logo" />
                         <span class="font-lg">znisa</span>
                     </a>
 
@@ -65,8 +60,7 @@
                             <ul class="__navbar_box">
                                 <li class="__navbar_box_items active">
                                     <svg
-                                        width="20"
-                                        height="20"
+                                        class="__social_icon"
                                         viewBox="0 0 20 20"
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -120,8 +114,7 @@
                         <button class="primary-btn p-1 pointer">
                             <div class="content p-15">
                                 <svg
-                                    width="20"
-                                    height="20"
+                                    class="__social_icon"
                                     viewBox="0 0 20 20"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -176,7 +169,7 @@
                 <div class="__hero_blocks"></div>
 
                 <div
-                    class="__hero_banner flex flex-col justify-center items-center gap-12"
+                    class="__hero_banner flex flex-col justify-center items-center gap-1"
                 >
                     <h2 class="fs-xl">I design and build clean websites</h2>
                     <p>
@@ -193,8 +186,8 @@
 
                     <img
                         src="./images/curved_diamond.png"
-                        class="star1"
-                        alt=""
+                        class="__hero-star1 __star"
+                        alt="A Curved Diamond Image"
                     />
                 </div>
 
@@ -204,8 +197,8 @@
                 <div class="__hero_blocks">
                     <img
                         src="./images/curved_diamond.png"
-                        class="star2"
-                        alt=""
+                        class="__hero-star2 star"
+                        alt="A Curved Diamond Image"
                     />
                 </div>
                 <div class="__hero_blocks"></div>
@@ -397,13 +390,12 @@
             </section>
 
             <section id="about" class="__Process_Section container">
-                <div class="flex items-center gap-12">
+                <div class="flex items-center gap-1">
                     <h2 class="fs-3xl ml-2">My process to design</h2>
                     <img
                         src="./images/2curved_diamonds.png"
-                        width="36"
-                        height="36"
-                        alt=""
+                        class="__2curved_diamonds_img"
+                        alt="2 Curved Diamond Image"
                     />
                 </div>
 
@@ -417,9 +409,8 @@
                         <div class="__timeline-right">
                             <img
                                 src="./images/330dev_circle.png"
-                                alt=""
-                                width="56"
-                                height="56"
+                                alt="330Deg Circle"
+                                class="__330deg_circle"
                             />
                             <h4 class="fs-md my-1_5">
                                 Step 1: Product design Research
@@ -451,9 +442,8 @@
                         <div class="__timeline-right">
                             <img
                                 src="./images/330dev_circle.png"
-                                alt=""
-                                width="56"
-                                height="56"
+                                alt="330Deg Circle"
+                                class="__330deg_circle"
                                 style="transform: rotate(90deg)"
                             />
                             <h4 class="fs-md my-1_5">
@@ -476,9 +466,8 @@
                         <div class="__timeline-right">
                             <img
                                 src="./images/330dev_circle.png"
-                                alt=""
-                                width="56"
-                                height="56"
+                                alt="330Deg Circle"
+                                class="__330deg_circle"
                                 style="transform: rotate(180deg)"
                             />
                             <h4 class="fs-md my-1_5">
@@ -495,13 +484,12 @@
             </section>
 
             <section id="projects" class="__Project_Section container">
-                <div class="flex items-center gap-12 mb-5">
+                <div class="flex items-center gap-1 mb-5">
                     <h2 class="fs-3xl ml-2">Some Featured projects</h2>
                     <img
                         src="./images/2curved_diamonds.png"
-                        width="36"
-                        height="36"
-                        alt=""
+                        class="__2curved_diamonds_img"
+                        alt="2 Curved Diamond Image"
                     />
                 </div>
 
@@ -510,8 +498,7 @@
                     <div class="__project-content">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            width="54"
-                            height="54"
+                            class="__330deg_circle"
                             viewBox="0 0 54 54"
                             fill="none"
                         >
@@ -631,8 +618,7 @@
                     <div class="__project-content">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            width="54"
-                            height="54"
+                            class="__330deg_circle"
                             viewBox="0 0 54 54"
                             fill="none"
                         >
@@ -752,8 +738,7 @@
                     <div class="__project-content">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            width="54"
-                            height="54"
+                            class="__330deg_circle"
                             viewBox="0 0 54 54"
                             fill="none"
                         >
@@ -865,6 +850,293 @@
                             </defs>
                         </svg>
                         <div class="__project-name">Project Name</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="testimonial" class="__Testimonial_Section container">
+                <div class="flex items-center gap-1 mb-5">
+                    <h2 class="fs-3xl">Client testimonials</h2>
+                    <img
+                        src="./images/2curved_diamonds.png"
+                        class="__2curved_diamonds_img"
+                        alt="2 Curved Diamond Image"
+                    />
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <div class="flex gap-3">
+                        <div class="__testimonial-card">
+                            <div class="__testimonial-card-header">
+                                <div class="flex items-center gap-1">
+                                    <div class="_img_holder"></div>
+                                    <div>
+                                        <h5 class="fs-2xs">Client Name</h5>
+                                        <h6 class="fs-4xs">Product designer</h6>
+                                    </div>
+                                </div>
+                                <img
+                                    class="double_quote"
+                                    src="./images/double_quote.png"
+                                    alt="double quote image"
+                                />
+                            </div>
+                            <div class="__textimonial-card-body">
+                                <p>
+                                    s simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been
+                                    the industry's standard dummy text ever
+                                    since the
+                                </p>
+                            </div>
+                        </div>
+                        <div class="__testimonial-card">
+                            <div class="__testimonial-card-header">
+                                <div class="flex items-center gap-1">
+                                    <div class="_img_holder"></div>
+                                    <div>
+                                        <h5 class="fs-2xs">Client Name</h5>
+                                        <h6 class="fs-4xs">Product designer</h6>
+                                    </div>
+                                </div>
+                                <img
+                                    class="double_quote"
+                                    src="./images/double_quote.png"
+                                    alt="double quote image"
+                                />
+                            </div>
+                            <div class="__textimonial-card-body">
+                                <p>
+                                    s simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been
+                                    the industry's standard dummy text ever
+                                    since the
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-1_5">
+                        <div class="__testimonial-card">
+                            <div class="__testimonial-card-header">
+                                <div class="flex items-center gap-1">
+                                    <div class="_img_holder"></div>
+                                    <div>
+                                        <h5 class="fs-2xs">Client Name</h5>
+                                        <h6 class="fs-4xs">Product designer</h6>
+                                    </div>
+                                </div>
+                                <img
+                                    class="double_quote"
+                                    src="./images/double_quote.png"
+                                    alt="double quote image"
+                                />
+                            </div>
+                            <div class="__textimonial-card-body">
+                                <p>
+                                    s simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been
+                                    the industry's standard dummy text ever
+                                    since the
+                                </p>
+                            </div>
+                        </div>
+                        <div class="__testimonial-card">
+                            <div class="__testimonial-card-header">
+                                <div class="flex items-center gap-1">
+                                    <div class="_img_holder"></div>
+                                    <div>
+                                        <h5 class="fs-2xs">Client Name</h5>
+                                        <h6 class="fs-4xs">Product designer</h6>
+                                    </div>
+                                </div>
+                                <img
+                                    class="double_quote"
+                                    src="./images/double_quote.png"
+                                    alt="double quote image"
+                                />
+                            </div>
+                            <div class="__textimonial-card-body">
+                                <p>
+                                    s simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been
+                                    the industry's standard dummy text ever
+                                    since the
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="__Contact_Section container py-5">
+                <div class="flex justify-between items-center mb-8">
+                    <div>
+                        <div class="flex items-center gap-1 mb-5">
+                            <h2 class="fs-3xl">Have idea about project?</h2>
+                            <img
+                                src="./images/2curved_diamonds.png"
+                                class="__2curved_diamonds_img"
+                                alt="2 Curved Diamond Image"
+                            />
+                        </div>
+
+                        <p class="__contact-text ml-1">
+                            Write anything here something about yourself to
+                            showcase what actually you doing or targeting etc.
+                        </p>
+                        <div
+                            class="primary-btn inline-block p-1_5 pointer my-3 ml-1"
+                        >
+                            <div
+                                class="content p-10_25 text-black fw-semibold fs-xs"
+                            >
+                                Send us a message
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="__contact-block">
+                        <div
+                            class="__contact-block-item1 __contact-block-border-rb"
+                        >
+                            <img
+                                src="./images/curved_diamond.png"
+                                alt="A Curved Diamond Image"
+                                class="__contact-block-star __star"
+                            />
+                        </div>
+
+                        <div
+                            class="__contact-block-item2 __contact-block-border-rb"
+                        ></div>
+                        <div
+                            class="__contact-block-item3 __contact-block-border-rb"
+                        ></div>
+
+                        <div class="__contact-block-item4"></div>
+
+                        <div
+                            class="__contact-block-item5 __contact-block-border-rb"
+                        ></div>
+                        <div
+                            class="__contact-block-item6 __contact-block-border-rb"
+                        >
+                            <img
+                                src="./images/curved_diamond.png"
+                                alt="A Curved Diamond Image"
+                                class="__contact-block-star __star"
+                            />
+                        </div>
+                        <div
+                            class="__contact-block-item7 __contact-block-border-rb"
+                        ></div>
+
+                        <div class="__contact-block-item8"></div>
+
+                        <div
+                            class="__contact-block-item9 __contact-block-border-r"
+                        ></div>
+                        <div
+                            class="__contact-block-item10 __contact-block-border-r"
+                        ></div>
+                        <div
+                            class="__contact-block-item11 __contact-block-border-r"
+                        ></div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-center">
+                    <a href="#home" class="flex items-center gap-1">
+                        <img src="./images/logo.png" alt="Logo Image" class="__logo" />
+                        <span class="font-lg">znisa</span>
+                    </a>
+
+                    <div class="primary-btn p-1_5">
+                        <div class="content">
+                            <!-- Large screen -->
+                            <ul class="__navbar_box">
+                                <li class="__navbar_box_items active">
+                                    <img
+                                        src="./images/X.png"
+                                        class="__social_icon"
+                                        alt="X media Image"
+                                    />
+                                </li>
+                                <li class="__navbar_box_items active">
+                                    <img
+                                        src="./images/Dribble.png"
+                                        class="__social_icon"
+                                        alt="Dribble Logo image"
+                                    />
+                                </li>
+                                <li class="__navbar_box_items active">
+                                    <img
+                                        src="./images/Instagram.png"
+                                        class="__social_icon"
+                                        alt="Instagram Logo image"
+                                    />
+                                </li>
+                                <li class="__navbar_box_items active">
+                                    <img
+                                        src="./images/Facebook.png"
+                                        class="__social_icon"
+                                        alt="Facebook Logo image"
+                                    />
+                                </li>
+                            </ul>
+
+                            <!-- small screen -->
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center items-center">
+                        <button class="primary-btn p-1 pointer">
+                            <div class="content p-18 fs-2xs fw-semibold">
+                                Hire me
+                            </div>
+                        </button>
+                        <button class="primary-btn p-1 pointer">
+                            <div class="content p-15">
+                                <svg
+                                    class="__social_icon"
+                                    viewBox="0 0 20 20"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <circle
+                                        cx="10.0002"
+                                        cy="5.00008"
+                                        r="3.33333"
+                                        stroke="black"
+                                        stroke-width="1.5"
+                                    />
+                                    <ellipse
+                                        cx="10.0002"
+                                        cy="14.1666"
+                                        rx="5.83333"
+                                        ry="3.33333"
+                                        stroke="black"
+                                        stroke-width="1.5"
+                                    />
+                                    <defs>
+                                        <linearGradient
+                                            id="paint0_linear_1_71"
+                                            x1="19.9206"
+                                            y1="8.69911"
+                                            x2="0.0722784"
+                                            y2="8.84948"
+                                            gradientUnits="userSpaceOnUse"
+                                        >
+                                            <stop stop-color="#7A87FB" />
+                                            <stop
+                                                offset="1"
+                                                stop-color="#FFD49C"
+                                            />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </button>
                     </div>
                 </div>
             </section>

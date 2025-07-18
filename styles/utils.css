@@ -82,13 +82,28 @@
 .mb-5 {
     margin-bottom: 5rem;
 }
+.mb-8 {
+    margin-bottom: 8rem;
+}
 
 .ml-2 {
     margin-left: 2rem;
 }
+.ml-1 {
+    margin-left: 1rem;
+}
 
-.gap-12 {
-    gap: 12px;
+.gap-1 {
+    gap: 1rem;
+}
+.gap-1_5{
+    gap: 1.5rem;
+}
+.gap-2 {
+    gap: 2rem;
+}
+.gap-3 {
+    gap: 3rem;
 }
 
 /* flex */
@@ -135,4 +150,7 @@
 
 .p-10_25 {
     padding: 10px 25px;
+}
+.py-5 {
+    padding-block: 5rem;
 }
