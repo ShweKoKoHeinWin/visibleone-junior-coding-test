@@ -39,18 +39,24 @@
         <link rel="preload" href="./styles/utils.css" as="style" />
         <link rel="preload" href="./styles/index.css" as="style" />
         <link rel="preload" href="./styles/responsive_768.css" as="style" />
+        <link rel="preload" href="./styles/responsive_992.css" as="style" />
 
         <link rel="stylesheet" href="./styles/reset.css" />
         <link rel="stylesheet" href="./styles/utils.css" />
         <link rel="stylesheet" href="./styles/index.css" />
         <link rel="stylesheet" href="./styles/responsive_768.css" />
+        <link rel="stylesheet" href="./styles/responsive_992.css" />
     </head>
     <body>
         <header class="container my-3">
-            <nav role="navigation" aria-label="Main Navigation">
+            <nav id="Navbar" role="navigation" aria-label="Main Navigation">
                 <div class="flex justify-between items-center">
                     <a href="#home" class="flex items-center gap-1">
-                        <img src="./images/logo.png" alt="LOGO image" class="__logo" />
+                        <img
+                            src="./images/logo.png"
+                            alt="LOGO image"
+                            class="__logo"
+                        />
                         <span class="font-lg">znisa</span>
                     </a>
 
@@ -102,6 +108,11 @@
                             </ul>
 
                             <!-- small screen -->
+                            <div class="__navbar_small_toggler">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+                            </div>
                         </div>
                     </div>
 
@@ -155,6 +166,50 @@
                         </button>
                     </div>
                 </div>
+
+                <ul class="__navbar_small_box">
+                    <li class="__navbar_box_items active">
+                        <svg
+                            class="__social_icon"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g clip-path="url(#clip0_1_58)">
+                                <path
+                                    d="M1.66692 10.17C1.66692 8.26299 1.66692 7.30948 2.09958 6.51903C2.53225 5.72859 3.3227 5.23801 4.90361 4.25685L6.57028 3.22247C8.24141 2.18532 9.07697 1.66675 10.0002 1.66675C10.9235 1.66675 11.7591 2.18532 13.4302 3.22247L15.0969 4.25685C16.6778 5.23801 17.4682 5.72859 17.9009 6.51903C18.3336 7.30948 18.3336 8.26299 18.3336 10.17V11.4375C18.3336 14.6883 18.3336 16.3137 17.3573 17.3235C16.381 18.3334 14.8096 18.3334 11.6669 18.3334H8.33358C5.19089 18.3334 3.61954 18.3334 2.64323 17.3235C1.66692 16.3137 1.66692 14.6883 1.66692 11.4375V10.17Z"
+                                    stroke="white"
+                                    stroke-width="1.5"
+                                />
+                                <path
+                                    d="M10.0002 12.5L10.0002 15"
+                                    stroke="white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1_58">
+                                    <rect
+                                        width="20"
+                                        height="20"
+                                        fill="white"
+                                        transform="translate(0.000244141)"
+                                    />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </li>
+                    <li class="__navbar_box_items">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="__navbar_box_items">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="__navbar_box_items">
+                        <a href="#contact">Contact me</a>
+                    </li>
+                </ul>
             </nav>
         </header>
 
@@ -865,7 +920,7 @@
                 </div>
 
                 <div class="flex flex-col gap-2">
-                    <div class="flex gap-3">
+                    <div class="flex flex-col md__flex-row gap-3">
                         <div class="__testimonial-card">
                             <div class="__testimonial-card-header">
                                 <div class="flex items-center gap-1">
@@ -915,7 +970,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex gap-1_5">
+                    <div class="flex flex-col md__flex-row gap-1_5">
                         <div class="__testimonial-card">
                             <div class="__testimonial-card-header">
                                 <div class="flex items-center gap-1">
@@ -970,7 +1025,7 @@
 
             <section id="contact" class="__Contact_Section container py-5">
                 <div class="flex justify-between items-center mb-8">
-                    <div>
+                    <div class="mx-auto">
                         <div class="flex items-center gap-1 mb-5">
                             <h2 class="fs-3xl">Have idea about project?</h2>
                             <img
@@ -1045,16 +1100,20 @@
                     </div>
                 </div>
 
-                <div class="flex justify-between items-center">
+                <div class="__footer">
                     <a href="#home" class="flex items-center gap-1">
-                        <img src="./images/logo.png" alt="Logo Image" class="__logo" />
+                        <img
+                            src="./images/logo.png"
+                            alt="Logo Image"
+                            class="__logo"
+                        />
                         <span class="font-lg">znisa</span>
                     </a>
 
                     <div class="primary-btn p-1_5">
                         <div class="content">
                             <!-- Large screen -->
-                            <ul class="__navbar_box">
+                            <ul class="__navbar_box large">
                                 <li class="__navbar_box_items active">
                                     <img
                                         src="./images/X.png"

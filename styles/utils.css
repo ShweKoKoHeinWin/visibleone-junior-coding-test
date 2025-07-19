@@ -61,10 +61,11 @@
 }
 
 .container {
-    width: 100%;
-    max-width: 1090px;
+    max-width: min(100%, 1090px);
     margin-left: auto;
     margin-right: auto;
+    padding: 1rem;
+    overflow-x: hidden;
 }
 
 .my-1_5 {
@@ -91,6 +92,9 @@
 }
 .ml-1 {
     margin-left: 1rem;
+}
+.mx-auto {
+    margin-inline: auto;
 }
 
 .gap-1 {

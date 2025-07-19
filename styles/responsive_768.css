@@ -1,7 +1,55 @@
 @media (min-width: 768px) {
+    /* Utils */
+    .md__flex-row {
+        flex-direction: row !important;
+    }
+
     /* Navbar */
     .__navbar_box {
         display: flex;
     }
+    .__navbar_small_toggler {
+        display: none;
+    }
 
+    /* Hero section */
+    .__HERO_Section .__hero_banner {
+        grid-column: 2 / span 4;
+        grid-row: 2 / span 3;
+    }
+
+    .__HERO_Section .__hero_blocks:nth-of-type(n + 7):nth-of-type(-n + 11) {
+        display: block;
+    }
+
+    /* Timeline */
+    .__timeline-item {
+        gap: 5rem;
+    }
+
+    /* Projects */
+    .__project-item {
+        padding: 3rem 3rem;
+    }
+    .__project-img-box {
+        width: 545px;
+        height: 545px;
+    }
+
+    /* Testimonial */
+    .__testimonial_Card {
+        width: 397px;
+    }
+    .__contact-text {
+        width: 468px;
+    }
+
+    /* Contact */
+    .__contact-block {
+        display: grid;
+    }
+    .__footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
